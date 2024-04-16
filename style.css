@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 194, 159);
+}
+
+.container {
+    text-align: center;
+}
+
+#searchİnput {
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#searchİnput:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.content {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content div {
+    margin-top: 20px;
+}
