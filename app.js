@@ -3,6 +3,7 @@ document.querySelector("#searchİnput").addEventListener("keypress",(e)=> {
         let userCity = document.querySelector("#searchİnput").value
         if (userCity != "") {
             getWeather(userCity)
+            document.querySelector("#searchİnput").value=""
         } else {
             alert("Şehri Boş Bırakamazsınız ")
         }
